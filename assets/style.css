@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(34, 34, 34);
+    min-height: 200px;
+}
+
+#top-header{
+    background-color:  rgb(204,153,51);
+}
+
+ul{
+    list-style: none;
+}
+
+.btn {
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn-warning {
+    color: white;
+    background-color: rgb(204,153,51);
+}
