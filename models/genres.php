@@ -1,7 +1,7 @@
 <?php
 
 
-require_once __DIR__ . "/products.php";
+include_once __DIR__ . "/products.php";
 
 class Genres extends Products{
     public $animale;
@@ -16,6 +16,6 @@ class Genres extends Products{
 
 
 $prodotto = new Genres("foto", "Eukanuba", "cibo", "€ 7.99", "cane");
-var_dump($prodotto);
+// var_dump($prodotto);
 
 ?>
